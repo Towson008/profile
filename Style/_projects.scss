@@ -1,0 +1,16 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin: 1.5rem;
+  }
+}
+
+.travelly,
+.towseen-photo {
+  flex: 1 1 40rem;
+}

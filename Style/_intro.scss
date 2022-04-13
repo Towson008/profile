@@ -6,7 +6,7 @@
 nav {
   @include flex(space-between, center, row);
   min-height: 10vh;
-  width: 70%;
+  width: 90%;
   flex-wrap: wrap;
 
   .logo {
@@ -17,13 +17,13 @@ nav {
     }
   }
   ul {
-    @include flex(space-around, center, row);
+    @include flex(space-evenly, center, row);
     flex: 1 1 30rem;
   }
 }
 
 .intro {
-  min-height: 80vh;
+  min-height: 70vh;
   width: 90%;
   margin: auto;
   flex-wrap: wrap;
@@ -53,8 +53,6 @@ nav {
   top: 0;
   right: 0;
   height: 100%;
-  //   width: 80%;
-  //   margin: 0 auto;
   z-index: -1;
 }
 
